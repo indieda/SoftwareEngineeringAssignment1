@@ -1,10 +1,12 @@
 language: java
-script: ant build
+#script: ant build
+os: osx
 jdk:
   - oraclejdk8
   - oraclejdk9
-addons:
-  apt:
-    packages:
-      - ant
-install: ant deps
+  - openjdk11
+#addons:
+#  apt:
+#    packages:
+#      - ant
+#install: ant deps
