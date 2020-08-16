@@ -1,11 +1,11 @@
 language: java
 script: makefile
-os: osx
+#os: osx
 jdk:
   #- oraclejdk9
   - openjdk15
-addons:
-  apt:
-    packages:
-      - ant
-install: ant deps
+#addons:
+#  apt:
+#    packages:
+#      - ant
+#install: ant deps
