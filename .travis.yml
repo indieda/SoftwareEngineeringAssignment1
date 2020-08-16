@@ -2,9 +2,8 @@ language: java
 #script: ant build
 os: osx
 jdk:
-  - oraclejdk8
   - oraclejdk9
-  - openjdk11
+  - openjdk15
 #addons:
 #  apt:
 #    packages:
