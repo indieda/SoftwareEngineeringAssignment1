@@ -1,5 +1,5 @@
 language: java
-script: ant build
+script: makefile
 os: osx
 jdk:
   #- oraclejdk9
