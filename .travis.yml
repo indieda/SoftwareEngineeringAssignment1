@@ -1,9 +1,10 @@
 language: java
-script: make
+script: make run
 #os: osx
 jdk:
   #- oraclejdk9
   - openjdk15
+
 #addons:
 #  apt:
 #    packages:
